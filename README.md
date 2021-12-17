@@ -46,13 +46,13 @@ You can see the complete [Time Zone List](https://en.wikipedia.org/wiki/List_of_
 # **Application File Description**
 |  File Name  |  Content Description
 |  ----  | ----  |
-| [PacketFormatDefine.swift](https://github.com/AVerMedia-Technologies-Inc/WidgetSwiftSamples/blob/main/Sources/ClockWidget_Swift/PacketFormatDefine.swift)  | Define JSON format |
-| [CommandManager.swift](https://github.com/AVerMedia-Technologies-Inc/WidgetSwiftSamples/blob/main/Sources/ClockWidget_Swift/CommandManager.swift)  | Manage all commands communicated with Creater Central, assemble and analyze packet data |
-| [WebSocketController.swift](https://github.com/AVerMedia-Technologies-Inc/WidgetSwiftSamples/blob/main/Sources/ClockWidget_Swift/WebSocketController.swift)  | WebSocket objects, connect, disconnect, send data, receive data |
-| [TimeFormatter.swift](https://github.com/AVerMedia-Technologies-Inc/WidgetSwiftSamples/blob/main/Sources/ClockWidget_Swift/TimeFormatter.swift)  | Define the time zone string format |
-| [ImageExtension.swift](https://github.com/AVerMedia-Technologies-Inc/WidgetSwiftSamples/blob/main/Sources/ClockWidget_Swift/ImageExtension.swift)  | Handle the conversion of base64 strings and images, and handle the conversion of View and NSImage data types |
-| [AnalogClockView.swift](https://github.com/AVerMedia-Technologies-Inc/WidgetSwiftSamples/blob/main/Sources/ClockWidget_Swift/AnalogClockView.swift)  | Draw analog clock |
-| [main.swift](https://github.com/AVerMedia-Technologies-Inc/WidgetSwiftSamples/blob/main/Sources/ClockWidget_Swift/main.swift)  | The main program, after obtaining the Widget UUID and port, set up the WebSocket connection, register the callback function, receive the instruction to do the corresponding processing, and manage the entire process. |
+| [PacketFormatDefine.swift](https://github.com/AVerMedia-Technologies-Inc/WidgetSwiftSample/blob/main/Sources/ClockWidget_Swift/PacketFormatDefine.swift)  | Define JSON format |
+| [CommandManager.swift](https://github.com/AVerMedia-Technologies-Inc/WidgetSwiftSample/blob/main/Sources/ClockWidget_Swift/CommandManager.swift)  | Manage all commands communicated with Creater Central, assemble and analyze packet data |
+| [WebSocketController.swift](https://github.com/AVerMedia-Technologies-Inc/WidgetSwiftSample/blob/main/Sources/ClockWidget_Swift/WebSocketController.swift)  | WebSocket objects, connect, disconnect, send data, receive data |
+| [TimeFormatter.swift](https://github.com/AVerMedia-Technologies-Inc/WidgetSwiftSample/blob/main/Sources/ClockWidget_Swift/TimeFormatter.swift)  | Define the time zone string format |
+| [ImageExtension.swift](https://github.com/AVerMedia-Technologies-Inc/WidgetSwiftSample/blob/main/Sources/ClockWidget_Swift/ImageExtension.swift)  | Handle the conversion of base64 strings and images, and handle the conversion of View and NSImage data types |
+| [AnalogClockView.swift](https://github.com/AVerMedia-Technologies-Inc/WidgetSwiftSample/blob/main/Sources/ClockWidget_Swift/AnalogClockView.swift)  | Draw analog clock |
+| [main.swift](https://github.com/AVerMedia-Technologies-Inc/WidgetSwiftSample/blob/main/Sources/ClockWidget_Swift/main.swift)  | The main program, after obtaining the Widget UUID and port, set up the WebSocket connection, register the callback function, receive the instruction to do the corresponding processing, and manage the entire process. |
 
 
 Note: Creator Central only supports String data type. If a Data type packet is sent, Creator Central will not take any action.
@@ -109,13 +109,13 @@ Close Creator Central, and go to /Applications Support/AVerMedia Creator Central
 # **程式檔案說明**
 |  檔案名稱  | 內容描述  |
 |  ----  | ----  |
-| [PacketFormatDefine.swift](https://github.com/AVerMedia-Technologies-Inc/WidgetSwiftSamples/blob/main/Sources/ClockWidget_Swift/PacketFormatDefine.swift)  | 定義 JSON 格式 |
-| [CommandManager.swift](https://github.com/AVerMedia-Technologies-Inc/WidgetSwiftSamples/blob/main/Sources/ClockWidget_Swift/CommandManager.swift)  | 管理所有和 Creater Central 溝通的指令，組裝和解析封包資料 |
-| [WebSocketController.swift](https://github.com/AVerMedia-Technologies-Inc/WidgetSwiftSamples/blob/main/Sources/ClockWidget_Swift/WebSocketController.swift)  | WebSocket 物件，連線、斷線、送出資料、接收資料 |
-| [TimeFormatter.swift](https://github.com/AVerMedia-Technologies-Inc/WidgetSwiftSamples/blob/main/Sources/ClockWidget_Swift/TimeFormatter.swift)  | 定義時區字串格式 |
-| [ImageExtension.swift](https://github.com/AVerMedia-Technologies-Inc/WidgetSwiftSamples/blob/main/Sources/ClockWidget_Swift/ImageExtension.swift)  | 處理 base64 字串和圖像的轉換，以及處理 View 和 NSImage 資料型態的轉換 |
-| [AnalogClockView.swift](https://github.com/AVerMedia-Technologies-Inc/WidgetSwiftSamples/blob/main/Sources/ClockWidget_Swift/AnalogClockView.swift)  | 繪製類比時鐘 |
-| [main.swift](https://github.com/AVerMedia-Technologies-Inc/WidgetSwiftSamples/blob/main/Sources/ClockWidget_Swift/main.swift)  | 主程式，取得 Widget UUID 和 port 後，設定 WebSocket 連線，註冊 callback function ，收到指令做對應的處理，管理整個流程 |
+| [PacketFormatDefine.swift](https://github.com/AVerMedia-Technologies-Inc/WidgetSwiftSample/blob/main/Sources/ClockWidget_Swift/PacketFormatDefine.swift)  | 定義 JSON 格式 |
+| [CommandManager.swift](https://github.com/AVerMedia-Technologies-Inc/WidgetSwiftSample/blob/main/Sources/ClockWidget_Swift/CommandManager.swift)  | 管理所有和 Creater Central 溝通的指令，組裝和解析封包資料 |
+| [WebSocketController.swift](https://github.com/AVerMedia-Technologies-Inc/WidgetSwiftSample/blob/main/Sources/ClockWidget_Swift/WebSocketController.swift)  | WebSocket 物件，連線、斷線、送出資料、接收資料 |
+| [TimeFormatter.swift](https://github.com/AVerMedia-Technologies-Inc/WidgetSwiftSample/blob/main/Sources/ClockWidget_Swift/TimeFormatter.swift)  | 定義時區字串格式 |
+| [ImageExtension.swift](https://github.com/AVerMedia-Technologies-Inc/WidgetSwiftSample/blob/main/Sources/ClockWidget_Swift/ImageExtension.swift)  | 處理 base64 字串和圖像的轉換，以及處理 View 和 NSImage 資料型態的轉換 |
+| [AnalogClockView.swift](https://github.com/AVerMedia-Technologies-Inc/WidgetSwiftSample/blob/main/Sources/ClockWidget_Swift/AnalogClockView.swift)  | 繪製類比時鐘 |
+| [main.swift](https://github.com/AVerMedia-Technologies-Inc/WidgetSwiftSample/blob/main/Sources/ClockWidget_Swift/main.swift)  | 主程式，取得 Widget UUID 和 port 後，設定 WebSocket 連線，註冊 callback function ，收到指令做對應的處理，管理整個流程 |
 
 
 注意：Creator Central 只支援 String 資料型別. 如果發送 Data 資料型別的封包的話， Creator Central 將不會有任何動作。

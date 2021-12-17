@@ -1,0 +1,32 @@
+{
+	"Package": "Utility",
+	"Author": "AVerMedia",
+	"Widget Category": "com.avermedia.widget.swift.clock",
+	"Title": "Clock(Swift)",
+	"Subtitle": "Clock(Swift)",
+	"Widget Version": "1.0",
+	"Runtime Information":  {
+		"mac": {
+			"Minimum Version": "10.15",
+			"Format": "bin",
+			"Target": "ClockWidget_Swift"
+		}
+	},
+	"Property Path": "property/index.html",
+	"Type": "widget",
+	"Width": 1,
+	"Height": 1,
+	"Icon": "images/clock.svg",
+	"States": [
+		{
+			"Title": "Clock",
+			"Image": "images/clockBackground.svg"
+		}
+	],
+	"Tooltip": "Widget Clock (Swift)",
+	"Url": "https://www.avermedia.com",
+	"Compatible": {
+		"SDK Version": "1.0",
+		"App Version": "1.1"
+	}
+}
